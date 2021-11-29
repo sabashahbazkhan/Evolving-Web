@@ -1,0 +1,194 @@
+/*
+ Theme Name: Web Timer
+ Author: Saba
+ Version: 1.0
+*/
+
+/* 3rd party packages */
+
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
+/* Document
+   ========================================================================== */
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg {
+    
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+    background-color: #000;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    z-index: 1;
+}
+.bottomright{
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+}
+.bottomright a{
+    color:#fff;
+    font-size: 16px;
+
+}
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+width: 80%;
+}
+.half-left {
+    width:60%;
+    float: left;
+    padding: 65px 0;
+}
+.half-right {
+    width:40%;
+    float: right;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+.code-button {
+    margin: 0;
+    padding:20px 0 0;
+    width:100%;
+}
+.code-button-number{
+    width: 72.4%;
+    float: left;
+}
+.code-action-btn{
+    width: 21%;
+    float: left;
+}
+.code-input {
+    margin: 0;
+    padding: 2% 7%;
+    width:69%;
+    height: 27px;
+    border: 0px;
+}
+
+.code-button li {
+    padding: 10px;
+    display: inline-block;
+    width: 40px;
+    height:40px;
+    color: #000;
+    text-align: center;
+    margin :5px;
+    background-color: #fff;
+    cursor: pointer;
+    line-height: 43px;
+    
+}
+.code-action-btn li{
+        font-size: 14px;
+    width: 49px;
+    height: 40px;
+    line-height: 42px;
+}
+.code-action-btn li a{
+    text-decoration: none;
+    color: #000;
+}
+#demo {
+    color: red;
+    font-size: 122px;
+    font-family: 'digital-7regular';
+}
+@media only screen and (max-width: 800px) {
+    #demo {
+    font-size: 65px;
+    margin: 0;
+
+}
+.half-left {
+    width:100%;
+    float: none;
+    padding: 0;
+}
+.half-right {
+    width:100%;
+    float: none;
+    margin-top: 2px;
+}
+.code-button-number{
+    width: auto;
+    float: none;
+}
+.code-button {
+    
+    padding:5px 0 0;
+    
+}
+.code-action-btn{
+    width: 100%;
+    float: none;
+}
+.middle {
+    top: 46%;
+    
+}
+#empty_li {
+    display: none;
+    
+}
+}
+#visitors {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 16px !important;
+}
+
+#visitors td, #visitors th {
+  border: 1px solid #fff;
+  padding: 8px;
+}
+#visitors td a {
+  text-decoration: none;
+}
+
+/*#visitors tr:nth-child(even){background-color: #f2f2f2;}
+*/
+#visitors tr:hover {background-color: #fff; color:#000;}
+
+#visitors th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000;
+  color: red;
+}
